@@ -16,8 +16,8 @@ const Footer = () => {
         CONTACT
       </a>
       <br></br>
-      Created by {name}.<br />
-      Copyright {date}.
+      <p>Created by {name}.<br />
+      Copyright {date}.</p>
     </div>
   );
 };

@@ -3,8 +3,25 @@
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: white;
   color: green;
   text-align: center;
 }
 
+#about {
+  padding-right: 100px;
+
+}
+#portfolio {
+  padding: 50px;
+}
+
+#contact {
+  padding-left: 100px;
+}
+#matrix {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/a/a0/Digital_rain_animation_small_letters_shine.gif");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
