@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import logo from '../images/logo.jpg';
 
 const Landing = () => {
   const [matrix, setMatrix] = useState('0vh');
@@ -14,10 +15,11 @@ const pullBack = () => {
 }
   return (
     <div id='matrix' style={{backgroundSize: matrix}}>
-     <p id='logo' style={{ visibility: blank }}>Steve Watson <br></br> 
-     Designer of things...
-     </p>
-     <button onClick={pullBack}>m</button>
+     <div id='logo' style={{ visibility: blank }}><img  src={logo} alt='Steve Watson' /><br></br> 
+     <h4 id='byline'>Designer of things...</h4> <br/>
+     <a id='secret' onClick={pullBack}>matrix</a>
+     </div>
+     
      
      </div>
   )

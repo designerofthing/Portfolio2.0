@@ -1,23 +1,68 @@
+@import "https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Lexend+Tera&display=swap";
+
+
 #footer {
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  color: green;
+  color: grey;
+  font-family: 'Lexend Tera', sans-serif;
   text-align: center;
 }
+p#copyright {  
+  text-align: center;
+  padding-top: 2%;
+font-size: 0.5vw;
+}
 
-#about-tab {
-  padding-right: 100px;
+#landing-tab {
+  padding-right: 10%;
+  font-family: 'Lexend Tera', sans-serif;
+  color: grey;
+  text-decoration: none;
 
 }
+#about-tab {
+  padding-right: 15%;
+  font-family: 'Lexend Tera', sans-serif;
+  color: grey;
+  text-decoration: none;
+}
 #portfolio-tab {
-  padding: 50px;
+  font-family: 'Lexend Tera', sans-serif;
+  color: grey;
+  text-decoration: none;
 }
 
 #contact-tab {
-  padding-left: 100px;
+  padding-left: 15%;
+  font-family: 'Lexend Tera', sans-serif;
+  color: grey;
+  text-decoration: none;
 }
+
+#logo {
+  padding-top: 10%;
+  margin: auto;
+  text-align: center;
+  display: block;
+}
+
+#byline {
+  font-family: 'Cinzel', serif;
+  font-size: 2vw;
+   color:#c3a343;
+  /* -webkit-text-fill-color: transparent;
+  background:linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+  background: -o-linear-gradient(transparent, transparent);
+-webkit-background-clip: text; */ 
+}
+
+#secret {
+  color: white;
+}
+
 #matrix {
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/a/a0/Digital_rain_animation_small_letters_shine.gif");
     height: 100vh; 
