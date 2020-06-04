@@ -8,7 +8,7 @@ const Footer = (blank) => {
   const date = currentDate.getFullYear();
   return (
     <div id="footer" style={{ visibility: blank }}>
-      <Link id="landing" to="/">
+      <Link id="landing-tab" to="/">
         Image
       </Link>
       <NavLink id="about-tab" to="/about">

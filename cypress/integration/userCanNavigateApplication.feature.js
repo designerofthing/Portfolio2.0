@@ -9,7 +9,7 @@ describe('User can navigate the app', () => {
       });
 
       it('displays About page', () => {
-          cy.get('#about').should('contain', 'About');
+          cy.get('#about-header').should('contain', 'About');
       });
 
       it('displays component name in url', () => {
@@ -17,7 +17,7 @@ describe('User can navigate the app', () => {
       });
 
       it('does not display Portfolio', () => {
-          cy.get('#portfolio').should('not.exist');
+          cy.get('#portfolio-header').should('not.exist');
       });
 
       it('does not display logo', () => {
@@ -25,7 +25,7 @@ describe('User can navigate the app', () => {
       });
 
       it('does not display Contact', () => {
-          cy.get('#contact').should('not.exist');
+          cy.get('#contact-header').should('not.exist');
       });
   });
 
@@ -35,7 +35,7 @@ describe('User can navigate the app', () => {
       });
 
       it('displays Portfolio page', () => {
-          cy.get('#portfolio').should('contain', 'Portfolio');
+          cy.get('#portfolio-header').should('contain', 'Portfolio');
       });
 
       it('displays component name in url', () => {
@@ -43,7 +43,7 @@ describe('User can navigate the app', () => {
       });
 
       it('does not display About', () => {
-          cy.get('#about').should('not.exist');
+          cy.get('#about-header').should('not.exist');
       });
 
       it('does not display logo', () => {
@@ -51,17 +51,17 @@ describe('User can navigate the app', () => {
       });
 
       it('does not display Contact', () => {
-          cy.get('#contact').should('not.exist');
+          cy.get('#contact-header').should('not.exist');
       });
   });
     
   describe('to Contact tab and link', () => {
       beforeEach(() => {
-          cy.get('#contact').click();
+          cy.get('#contact-tab').click();
       });
 
       it('displays Contact page', () => {
-          cy.get('#contact').should('contain', 'Contact');
+          cy.get('#contact-header').should('contain', 'Contact');
       });
 
       it('displays component name in url', () => {
@@ -69,11 +69,11 @@ describe('User can navigate the app', () => {
       });
 
       it('does not display About', () => {
-          cy.get('#about').should('not.exist');
+          cy.get('#about-header').should('not.exist');
       });
 
       it('does not display Portfolio', () => {
-          cy.get('#portfolio').should('not.exist');
+          cy.get('#portfolio-header').should('not.exist');
       });
 
       it('does not display logo', () => {
@@ -83,8 +83,7 @@ describe('User can navigate the app', () => {
 
   describe('back to Main Page/Logo tab and it', () => {
       beforeEach(() => {
-          cy.get('#about').click();
-          cy.get('#header').click();
+          cy.get('#landing-tab').click();
       });
 
       it('displays logo image', () => {
@@ -99,15 +98,15 @@ describe('User can navigate the app', () => {
       });
 
       it('does not display About', () => {
-          cy.get('#about').should('not.exist');
+          cy.get('#about-header').should('not.exist');
       });
 
       it('does not display Portfolio', () => {
-          cy.get('#portfolio').should('not.exist');
+          cy.get('#portfolio-header').should('not.exist');
       });
 
       it('does not display Contact', () => {
-          cy.get('#contact').should('not.exist');
+          cy.get('#contact-header').should('not.exist');
       });
   });    
 });
