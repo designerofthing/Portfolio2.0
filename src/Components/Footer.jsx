@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink, Link } from "react-router-dom";
 
 const Footer = (blank) => {
   // const [blank, setBlank] = useState('visible');
@@ -6,19 +7,24 @@ const Footer = (blank) => {
   const currentDate = new Date();
   const date = currentDate.getFullYear();
   return (
-    <div id="footer" style={{visibility: blank}}>
-      <a id="about-tab" href="#">
+    <div id="footer" style={{ visibility: blank }}>
+      <Link id="landing" to="/">
+        Image
+      </Link>
+      <NavLink id="about-tab" to="/about">
         ABOUT
-      </a>
-      <a id="portfolio-tab" href="#">
+      </NavLink>
+      <NavLink id="portfolio-tab" to="/portfolio">
         PORTFOLIO
-      </a>
-      <a id="contact-tab" href="#">
+      </NavLink>
+      <NavLink id="contact-tab" to="/contact">
         CONTACT
-      </a>
+      </NavLink>
       <br></br>
-      <p>Created by {name}.<br />
-      Copyright {date}.</p> 
+      <p>
+        Created by {name}.<br />
+        Copyright {date}.
+      </p>
     </div>
   );
 };

@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './App.css';
 import Footer from './Components/Footer';
-import { Switch } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 import Landing from './Components/Landing';
 import About from './Components/About';
 import Portfolio from './Components/Portfolio';
@@ -17,9 +17,9 @@ function App() {
     <Route exact path='/' component={Landing}></Route> 
     <Route exact path='/about' component={About}></Route>
     <Route exact path='/portfolio' component={Portfolio}></Route>
-    <Route exact path='contact' component={Contact}></Route>
+    <Route exact path='/contact' component={Contact}></Route>
     </Switch>
-    <Footer blank={blank} setBlank={setBlank}/>
+    <Footer />
    </>
   );
 }

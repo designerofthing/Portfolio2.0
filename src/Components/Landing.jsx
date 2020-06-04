@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const Landing = () => {
   const [matrix, setMatrix] = useState('0vh');
