@@ -16,7 +16,7 @@ const pullBack = () => {
   return (
     <div id='matrix' style={{backgroundSize: matrix}}>
      <div id='logo' style={{ visibility: blank }}><img  src={logo} alt='Steve Watson' /><br></br> 
-     <h4 id='byline'>Designer of things...</h4> <br/>
+     {/* <h4 id='byline'>Designer of things...</h4> <br/> */}
      <a id='secret' onClick={pullBack}>matrix</a>
      </div>
      
