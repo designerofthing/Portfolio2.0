@@ -2,7 +2,6 @@ import React from "react";
 import { NavLink, Link } from "react-router-dom";
 
 const Footer = ({blank}) => {
-  // const [blank, setBlank] = useState('visible');
   const name = "Steve Watson";
   const currentDate = new Date();
   const date = currentDate.getFullYear();
