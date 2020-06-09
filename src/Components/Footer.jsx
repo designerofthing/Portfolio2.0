@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink, Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Footer = ({blank}) => {
   const name = "Steve Watson";
@@ -7,9 +7,6 @@ const Footer = ({blank}) => {
   const date = currentDate.getFullYear();
   return (
     <div id="footer" style={{ visibility: blank }}>
-      {/* <Link id="landing-tab" to="/">
-        Image
-      </Link> */}
       <NavLink id="about-tab" to="/about">
         ABOUT
       </NavLink>

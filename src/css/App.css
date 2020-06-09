@@ -16,13 +16,6 @@ p#copyright {
 font-size: 0.5vw;
 }
 
-#landing-tab {
-  padding-right: 10%;
-  font-family: 'Lexend Tera', sans-serif;
-  color: grey;
-  text-decoration: none;
-
-}
 #about-tab {
   padding-right: 15%;
   font-family: 'Lexend Tera', sans-serif;
@@ -48,6 +41,12 @@ font-size: 0.5vw;
   text-align: center;
   display: block;
 }
+
+#about {
+  text-align: left;
+  display: block;
+}
+
 
 #byline {
   font-size: 1.5vw;
