@@ -47,18 +47,14 @@ font-size: 0.5vw;
  
 }
 #portfolio {
-  width: 100%;
+  padding-left: 5vw;
+  width: 95%;
   display: block;
 }
 
 div#about-text {
   display: block;
   width: 100%;
-}
-
-
-#byline {
-  font-size: 1.5vw;
 }
 
 #secret {
@@ -76,3 +72,30 @@ body,html {
   margin: 0;
   padding: 0;
 }
+
+#portfolio-webdev {
+  width: 50%;
+  float: left;
+  text-align: center;
+  font-family: 'Lexend Tera', sans-serif;
+  color: grey;
+  text-decoration: none;
+}
+
+#portfolio-products {
+  width: 50%;
+  float: right;
+  text-align: center;
+  font-family: 'Lexend Tera', sans-serif;
+  color: grey;
+  text-decoration: none;
+}
+
+#image-1 {
+  height: 40vh
+}
+
+#image-2 {
+  height: 40vh;
+}
+

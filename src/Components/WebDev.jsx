@@ -1,12 +1,16 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from "react";
+import Header from "./Header";
 
-const WebDev = () => {
+const WebDev = ({ title }) => {
   return (
-    <div>
-       <Link to="/portfolio/webdev">Web Development</Link>
-    </div>
-  )
-}
+    <>
+      <div id="portfolio">
+        <Header title={title} />
+      </div>
+      <div id="webdev-page">
+      </div>
+    </>
+  );
+};
 
-export default WebDev
+export default WebDev;

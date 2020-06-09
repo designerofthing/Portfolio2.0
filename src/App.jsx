@@ -8,7 +8,6 @@ import Portfolio from "./Components/Portfolio";
 import Contact from "./Components/Contact";
 import WebDev from "./Components/WebDev";
 import Products from "./Components/Products";
-import Header from "./Components/Header";
 
 const App = () => {
   const [matrix, setMatrix] = useState("0vh");
@@ -44,8 +43,8 @@ const App = () => {
           render={(props) => <Portfolio {...props} title={"PORTFOLIO"} />}
         ></Route>
 
-        <Route exact path="/portfolio/webdev" component={WebDev}></Route>
-        <Route exact path="/portfolio/products" component={Products}></Route>
+        <Route exact path="/portfolio/webdev" render={(props) => <WebDev {...props} title={"WEB DEVELOPMENT"} />}></Route>
+        <Route exact path="/portfolio/products" render={(props) => <Products {...props} title={"PRODUCTS"} />}></Route>
         <Route
           exact
           path="/contact"

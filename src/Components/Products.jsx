@@ -1,13 +1,16 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from "react";
+import Header from "./Header";
 
-const Products = () => {
+const Products = ({ title }) => {
   return (
-    <div>
-      <Link to="/portfolio/products">Products</Link>
-      
-    </div>
-  )
-}
+    <>
+      <div id="portfolio">
+        <Header title={title} />
+      </div>
+      <div id="product-page">
+      </div>
+    </>
+  );
+};
 
-export default Products
+export default Products;

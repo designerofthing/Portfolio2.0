@@ -1,19 +1,22 @@
 import React from "react";
 import Header from "./Header";
-import WebDev from "./WebDev";
-import Products from "./Products";
+import { Link } from "react-router-dom";
 
-const Portfolio = ({title}) => {
+const Portfolio = ({ title }) => {
   return (
     <>
-      <Header title={title}/>
-      <div id="portfolio" >
-        <div id='web-dev'>
-          <WebDev />
-        </div>
-        <div id='products'>
-          <Products />
-        </div>
+      <div id="portfolio">
+        <Header title={title} />
+      </div>
+      <div id="portfolio-webdev">
+        <placeholder id="image-1"></placeholder>
+        <Link to="/portfolio/webdev">Web Development</Link>
+        <placeholder id="image-2"></placeholder>
+      </div>
+      <div id="portfolio-products">
+        <placeholder id="image-1"></placeholder>
+        <Link to="/portfolio/products">Products</Link>
+        <placeholder id="image-2"></placeholder>
       </div>
     </>
   );
