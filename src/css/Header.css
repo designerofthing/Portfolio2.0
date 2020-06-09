@@ -1,0 +1,16 @@
+#header {
+  display: block;
+  width: 50%;
+}
+
+#small-logo {
+  float: left;
+  padding-top: 10px;
+  max-width: 15vw;
+}
+
+div#landing-tab {
+  margin: 0;
+  padding: 0;
+
+}
