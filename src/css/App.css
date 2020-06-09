@@ -42,24 +42,18 @@ font-size: 0.5vw;
   display: block;
 }
 
-#about, #contact, #portfolio {
+#about, #contact {
   padding-left: 5vw;
  
 }
-
-#about-header, #contact-header, #portfolio-header {
+#portfolio {
+  width: 100%;
   display: block;
-  float: right;
-  text-align: right;
-  padding-right: 10vw;
-  font-family: 'Lexend Tera', sans-serif;
-  color: grey;
 }
+
 div#about-text {
   display: block;
   width: 100%;
-
-
 }
 
 

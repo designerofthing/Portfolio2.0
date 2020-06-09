@@ -1,16 +1,21 @@
 import React from "react";
 import Header from "./Header";
+import WebDev from "./WebDev";
+import Products from "./Products";
 
-const Portfolio = () => {
+const Portfolio = ({title}) => {
   return (
-    <div id="portfolio">
-      <Header />
-      <h2 id="portfolio-header">PORTFOLIO</h2>
-      <container>
-        <div id='web-dev'></div>
-        <div id='products'></div>
-      </container>
-    </div>
+    <>
+      <Header title={title}/>
+      <div id="portfolio" >
+        <div id='web-dev'>
+          <WebDev />
+        </div>
+        <div id='products'>
+          <Products />
+        </div>
+      </div>
+    </>
   );
 };
 
