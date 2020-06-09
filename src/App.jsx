@@ -43,8 +43,16 @@ const App = () => {
           render={(props) => <Portfolio {...props} title={"PORTFOLIO"} />}
         ></Route>
 
-        <Route exact path="/portfolio/webdev" render={(props) => <WebDev {...props} title={"WEB DEVELOPMENT"} />}></Route>
-        <Route exact path="/portfolio/products" render={(props) => <Products {...props} title={"PRODUCTS"} />}></Route>
+        <Route
+          exact
+          path="/portfolio/webdev"
+          render={(props) => <WebDev {...props} title={"WEB DEVELOPMENT"} />}
+        ></Route>
+        <Route
+          exact
+          path="/portfolio/products"
+          render={(props) => <Products {...props} title={"PRODUCTS"} />}
+        ></Route>
         <Route
           exact
           path="/contact"
