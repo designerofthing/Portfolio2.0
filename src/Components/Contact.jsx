@@ -1,15 +1,12 @@
 import React from 'react'
+import Header from './Header'
 
 const Contact = () => {
   return (
-    <div>
-      <h1 id="contact-header">Contact Me</h1>
-      <p>
-        Ipsum dolor dolorem consectetur est velit fugiat. Dolorem provident
-        corporis fuga saepe distinctio ipsam? Et quos harum excepturi dolorum
-        molestias?
-      </p>
-      
+    <div id="contact">
+      <Header />
+      <h2 id="contact-header">CONTACT</h2>
+            
     </div>
   )
 }

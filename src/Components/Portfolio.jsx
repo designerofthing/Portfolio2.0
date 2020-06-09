@@ -1,14 +1,12 @@
 import React from 'react'
+import Header from './Header'
 
 const Portfolio = () => {
   return (
-    <div>
-      <h1 id="portfolio-header">My Portfolio</h1>
-      <p>
-        Ipsum dolor dolorem consectetur est velit fugiat. Dolorem provident
-        corporis fuga saepe distinctio ipsam? Et quos harum excepturi dolorum
-        molestias?
-      </p>
+    <div id="portfolio">
+      <Header />
+      <h2 id="portfolio-header">PORTFOLIO</h2>
+        
       
     </div>
   )

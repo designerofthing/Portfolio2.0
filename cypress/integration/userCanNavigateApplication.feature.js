@@ -1,6 +1,6 @@
 describe('User can navigate the app', () => {
   beforeEach(() => {
-      cy.visit('http://localhost:3000');
+      cy.visit('/');
   })
 
   describe('to About tab and link', () => {
@@ -9,7 +9,7 @@ describe('User can navigate the app', () => {
       });
 
       it('displays About page', () => {
-          cy.get('#about-header').should('contain', 'About');
+          cy.get('#about-header').should('contain', 'ABOUT');
       });
 
       it('displays component name in url', () => {
@@ -35,7 +35,7 @@ describe('User can navigate the app', () => {
       });
 
       it('displays Portfolio page', () => {
-          cy.get('#portfolio-header').should('contain', 'Portfolio');
+          cy.get('#portfolio-header').should('contain', 'PORTFOLIO');
       });
 
       it('displays component name in url', () => {
@@ -61,7 +61,7 @@ describe('User can navigate the app', () => {
       });
 
       it('displays Contact page', () => {
-          cy.get('#contact-header').should('contain', 'Contact');
+          cy.get('#contact-header').should('contain', 'CONTACT');
       });
 
       it('displays component name in url', () => {
@@ -83,7 +83,8 @@ describe('User can navigate the app', () => {
 
   describe('back to Main Page/Logo tab and it', () => {
       beforeEach(() => {
-          cy.get('#landing-tab').click();
+          cy.visit('/about');
+          cy.get('#small-logo').click();
       });
 
       it('displays logo image', () => {

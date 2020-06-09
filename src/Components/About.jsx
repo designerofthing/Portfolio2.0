@@ -1,18 +1,14 @@
-import React from 'react'
-import Header from './Header'
+import React from "react";
+import Header from "./Header";
 
 const About = () => {
   return (
-    <div id='about'>
+    <div id="about">
       <Header />
-      <h1 id="about-header">About Me</h1>
-      <p>
-        Ipsum dolor dolorem consectetur est velit fugiat. Dolorem provident
-        corporis fuga saepe distinctio ipsam? Et quos harum excepturi dolorum
-        molestias?
-      </p>
+      <h2 id="about-header">ABOUT</h2>
+     
     </div>
-  )
-}
+  );
+};
 
-export default About
+export default About;
