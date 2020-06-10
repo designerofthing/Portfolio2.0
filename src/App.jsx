@@ -47,7 +47,11 @@ const App = () => {
           exact
           path="/portfolio/webdev"
           render={(props) => <WebDev {...props} title={"WEB DEVELOPMENT"} />}
-        ></Route>
+        ></Route><Route
+        exact
+        path="/portfolio/skase"
+        render={(props) => <Products {...props} title={"SKASE"} />}
+      ></Route>
         <Route
           exact
           path="/portfolio/products"
