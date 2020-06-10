@@ -1,4 +1,5 @@
 @import "https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Lexend+Tera&display=swap";
+@import 'https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap';
 @import "~react-image-gallery/styles/css/image-gallery.css";
 
 #footer {
@@ -40,6 +41,9 @@ p#copyright {
   font-family: "Lexend Tera", sans-serif;
   color: grey;
   text-decoration: none;
+}
+#contact-details {
+  font-family: 'Raleway', sans-serif;
 }
 
 #logo {
