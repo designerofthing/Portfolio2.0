@@ -1,11 +1,11 @@
 import React from "react";
 import Header from "./Header";
 
-const About = () => {
+const About = ({title}) => {
   return (
-    <div id="about">
-      <Header />
-      <h2 id="about-header">ABOUT</h2>
+    <div id="about-header">
+      <Header title={title} />
+      
      
     </div>
   );
