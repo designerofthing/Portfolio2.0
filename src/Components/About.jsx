@@ -3,7 +3,7 @@ import Header from "./Header";
 
 const About = ({title}) => {
   return (
-    <div id="about">
+    <div id="about-header">
       <Header title={title} />
       
      

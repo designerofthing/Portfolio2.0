@@ -49,11 +49,11 @@ p#copyright {
   display: block;
 }
 
-#about,
-#contact {
+#about-header,
+#contact-header {
   padding-left: 5vw;
 }
-#portfolio,
+#portfolio-header,
 #products-header,
 #wd-header {
   padding-left: 5vw;
