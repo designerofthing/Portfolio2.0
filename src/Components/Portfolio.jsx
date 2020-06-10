@@ -10,12 +10,12 @@ const Portfolio = ({ title }) => {
       </div>
       <div id="portfolio-webdev">
         <div id="image-1">
-          <Link to="/portfolio/webdev">Web Development</Link>
+          <Link id='port-link' to="/portfolio/webdev">Web Development</Link>
         </div>
       </div>
       <div id="portfolio-products">
         <div id="image-2">
-          <Link to="/portfolio/products">Products</Link>
+          <Link id='port-link' to="/portfolio/products">Product Design</Link>
         </div>
       </div>
     </>

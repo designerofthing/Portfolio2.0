@@ -3,10 +3,10 @@ describe('User can see whole portfolio', () => {
     cy.visit('/portfolio');
   })
   it('shows two portfolio options', () => {
-    cy.get('#web-dev').click();
-    cy.get('#wd-header').should('contain', 'Web Development');
+    cy.get('#portfolio-webdev').click();
+    cy.get('#wd-header').should('contain', 'WEB DEVELOPMENT');
     cy.go('back');
-    cy.get('#products').click();
-    cy.get('#products-header').should('contain', 'Product Design');
+    cy.get('#portfolio-products').click();
+    cy.get('#products-header').should('contain', 'PRODUCT DESIGN');
   });
 })

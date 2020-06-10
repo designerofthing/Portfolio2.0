@@ -51,7 +51,7 @@ const App = () => {
         <Route
           exact
           path="/portfolio/products"
-          render={(props) => <Products {...props} title={"PRODUCTS"} />}
+          render={(props) => <Products {...props} title={"PRODUCT DESIGN"} />}
         ></Route>
         <Route
           exact

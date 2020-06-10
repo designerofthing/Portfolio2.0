@@ -16,6 +16,12 @@ p#copyright {
   padding-top: 1%;
   font-size: 0.5vw;
 }
+#port-link{
+  font-family: "Lexend Tera", sans-serif;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-decoration: none;
+}
 
 #about-tab {
   padding-right: 15%;
@@ -47,7 +53,9 @@ p#copyright {
 #contact {
   padding-left: 5vw;
 }
-#portfolio {
+#portfolio,
+#products-header,
+#wd-header {
   padding-left: 5vw;
   width: 95%;
   display: block;
@@ -109,4 +117,7 @@ html {
   background-image: url("https://picsum.photos/400/300");
   background-repeat: no-repeat;
   background-size: cover;
+}
+.image-gallery-content .image-gallery-slide .image-gallery-image {
+  max-height: calc(90vh - 80px)!important;
 }

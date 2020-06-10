@@ -20,11 +20,11 @@ const WebDev = ({ title }) => {
   ];
   return (
     <>
-      <div id="portfolio">
+      <div id="wd-header">
         <Header title={title} />
       </div>
       <div id="webdev-page">
-      <ImageGallery items={images} showThumbnails={false} style={{width:'95vw'}}/>
+      <ImageGallery items={images} showThumbnails={false} />
       </div>
     </>
   );
