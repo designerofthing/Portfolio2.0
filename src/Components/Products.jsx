@@ -4,12 +4,11 @@ import ImageGallery from "react-image-gallery";
 import { Link } from "react-router-dom";
 
 const Products = ({ title }) => {
-const [path, setPath] = useState('');
+  const [path, setPath] = useState("");
 
   const singleProduct = (event) => {
-    debugger
-    setPath(event.target.title.toLowerCase())
-  }
+    setPath(event.target.title.toLowerCase());
+  };
 
   const images = [
     {
@@ -20,12 +19,12 @@ const [path, setPath] = useState('');
     {
       original:
         "https://www.itsliquid.com/wp-content/uploads/design/proponshelf.jpg",
-      originalTitle: "Prop Table Lamp 2008",
+      originalTitle: "Prop",
       description: "Prop Table Lamp 2008",
     },
     {
       original: "http://simbiosisgroup.net/wp-content/uploads/2011/08/0.jpg",
-      originalTitle: "Cassiopeia Table 2007",
+      originalTitle: "Cassiopeia",
       description: "Cassiopeia Table 2007",
     },
   ];
@@ -36,8 +35,12 @@ const [path, setPath] = useState('');
         <Header title={title} />
       </div>
       <div id="product-page">
-        <ImageGallery items={images} showThumbnails={false} onClick={singleProduct}><Link to={`/portfolio/${path}`}/></ImageGallery>
-        
+        <Link to={`/portfolio/${path}`} />
+        <ImageGallery
+          items={images}
+          showThumbnails={false}
+          onClick={singleProduct}
+        />
       </div>
     </>
   );

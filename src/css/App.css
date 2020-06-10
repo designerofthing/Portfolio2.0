@@ -106,17 +106,19 @@ html {
 #image-1 {
   height: 70vh;
   background-color: grey;
-  background-image: url("https://picsum.photos/400/300");
+  background-image: url("../images/rt.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 #image-2 {
   height: 70vh;
   background-color: grey;
-  background-image: url("https://picsum.photos/400/300");
+  background-image: url("../images/Take me 1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  object-fit: scale-down;
 }
 .image-gallery-content .image-gallery-slide .image-gallery-image {
   max-height: calc(90vh - 80px)!important;
