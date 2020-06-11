@@ -142,6 +142,9 @@ html {
   text-decoration: none;
   cursor: pointer;
 }
+a:active {
+  color: black;
+}
 
 #steve, #skills, #tech {
   display: block;

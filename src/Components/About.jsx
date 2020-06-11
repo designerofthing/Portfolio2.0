@@ -8,6 +8,7 @@ const About = ({ title }) => {
   const [skills, setSkills] = useState("none");
   const [tech, setTech] = useState("none");
 
+ 
   const launchSteve = () => {
     setSteve("block");
     setSkills("none");
@@ -52,7 +53,7 @@ const About = ({ title }) => {
       </div>
       <div id="about-grid">
         <div className="grid-cell">
-          <a id="about-steve" onClick={launchSteve}>
+          <a id="about-steve"  onClick={launchSteve}>
             About Steve
           </a>
         </div>
@@ -88,9 +89,11 @@ const About = ({ title }) => {
       />
 
       <div id="skills" style={{ display: skills }}>
-        These are Steve's skills.
+        <h4>Skills</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sit amet enim vel metus porta consectetur. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus quis tortor vel orci tempor vestibulum. Suspendisse nec bibendum ex. Vestibulum eros sem, cursus nec sapien hendrerit, gravida hendrerit erat. Duis vulputate neque et diam posuere congue. Morbi nec velit ante. Maecenas at mauris nec ligula vehicula rhoncus at a turpis. Aenean vitae enim nec magna lacinia placerat id quis tellus. Integer vel quam lacus. In sagittis interdum orci, id pharetra turpis ullamcorper ut. In non congue ligula.</p>
       </div>
       <div id="tech" style={{ display: tech }}>
+        <h4>Tech Abilities</h4>
         {techList}
       </div>
     </>
