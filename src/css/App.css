@@ -163,3 +163,26 @@ html {
   padding-right: 10vw;
   border-radius: 50%;
 }
+
+.column1 {
+  float: left;
+  width: 60%;
+  font-family: 'Raleway', sans-serif;
+  text-align: right;
+  vertical-align: text-bottom;
+  font-size: 2vh;
+}
+.column2 {
+  text-align: right;
+  vertical-align: top;
+  transform: scale(0.5) translateY(-2.5vh);
+  
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+

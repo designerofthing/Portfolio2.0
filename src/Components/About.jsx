@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./Header";
 import { useState } from "react";
-import steve from "../images/steve.jpg";
+import Rating from "react-rating";
 
 const About = ({ title }) => {
   const [steve, setSteve] = useState("block");
@@ -23,6 +23,28 @@ const About = ({ title }) => {
     setSkills("none");
     setSteve("none");
   };
+
+  const programs = [
+    { name: "HTML & CSS", rating: 3.5 },
+    { name: "Javascript & ReactJS", rating: 3 },
+    { name: "Cypress", rating: 4 },
+    { name: "Ruby/Rails & RSpec", rating: 3.5 },
+    { name: "Git", rating: 4 },
+    { name: "Photoshop & Illustrator", rating: 3 },
+    { name: "AutoCAD, Rhino, 3DStudio", rating: 3.5 },
+
+  ];
+  const techList = programs.map((program) => {
+    return (
+      <div className="row">
+        <div className="column1">{program.name}</div>
+        <div className="column2">
+        <Rating  initialRating={program.rating} readonly />
+        </div>
+      </div>
+    );
+  });
+
   return (
     <>
       <div id="about-header">
@@ -69,7 +91,7 @@ const About = ({ title }) => {
         These are Steve's skills.
       </div>
       <div id="tech" style={{ display: tech }}>
-        This is Steve's Tech list.
+        {techList}
       </div>
     </>
   );
