@@ -203,7 +203,14 @@ a:active {
   clear: both;
 }
 
+#contact-grid {
+  padding-top: 20vh;
+}
+
 #github-icon,
-#linkedin-icon {
+#linkedin-icon,
+#gmail-icon
+ {
   width: 10vw;
+  padding-right: 10vw;
 }
