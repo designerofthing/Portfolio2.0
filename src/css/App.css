@@ -50,6 +50,7 @@ p#copyright {
 
 p,
 h4,
+li,
 #contact-details {
   font-family: "Raleway", sans-serif;
 }
@@ -165,13 +166,13 @@ a:active {
   float: left;
   font-size: 2.5vh;
   line-height: 1.5;
-  padding-top: 10vh;
-  padding-left: 5vw;
+  /* padding-top: 5vh; */
+  padding-left: 10vw;
   text-align: justify;
 }
 
 #about-right {
-  width: 49%;
+  width: 45%;
   float: right;
 }
 
