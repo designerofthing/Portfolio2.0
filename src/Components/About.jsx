@@ -8,7 +8,6 @@ const About = ({ title }) => {
   const [skills, setSkills] = useState("none");
   const [tech, setTech] = useState("none");
 
- 
   const launchSteve = () => {
     setSteve("block");
     setSkills("none");
@@ -33,14 +32,13 @@ const About = ({ title }) => {
     { name: "Git", rating: 4 },
     { name: "Photoshop & Illustrator", rating: 3 },
     { name: "AutoCAD, Rhino, 3DStudio", rating: 3.5 },
-
   ];
   const techList = programs.map((program) => {
     return (
       <div className="row">
         <div className="column1">{program.name}</div>
         <div className="column2">
-        <Rating  initialRating={program.rating} readonly />
+          <Rating initialRating={program.rating} readonly />
         </div>
       </div>
     );
@@ -53,7 +51,7 @@ const About = ({ title }) => {
       </div>
       <div id="about-grid">
         <div className="grid-cell">
-          <a id="about-steve"  onClick={launchSteve}>
+          <a id="about-steve" onClick={launchSteve}>
             About Steve
           </a>
         </div>
@@ -81,16 +79,28 @@ const About = ({ title }) => {
           <br /> all over the world including Salone del Mobile in Milan. <br />
         </p>
       </div>
-      <img
-        id="about-image"
-        src={
-          "https://media-exp1.licdn.com/dms/image/C4D03AQEGS43wYaFp_A/profile-displayphoto-shrink_400_400/0?e=1597276800&v=beta&t=ctSjVfLk6tWtfmWVFfzpaAJ191SvRPeWEEHVq0aYuDs"
-        }
-      />
-
+      <div id="about-right">
+        <img
+          id="about-image"
+          src={
+            "https://media-exp1.licdn.com/dms/image/C4D03AQEGS43wYaFp_A/profile-displayphoto-shrink_400_400/0?e=1597276800&v=beta&t=ctSjVfLk6tWtfmWVFfzpaAJ191SvRPeWEEHVq0aYuDs"
+          }
+        />
+      </div>
       <div id="skills" style={{ display: skills }}>
         <h4>Skills</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sit amet enim vel metus porta consectetur. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus quis tortor vel orci tempor vestibulum. Suspendisse nec bibendum ex. Vestibulum eros sem, cursus nec sapien hendrerit, gravida hendrerit erat. Duis vulputate neque et diam posuere congue. Morbi nec velit ante. Maecenas at mauris nec ligula vehicula rhoncus at a turpis. Aenean vitae enim nec magna lacinia placerat id quis tellus. Integer vel quam lacus. In sagittis interdum orci, id pharetra turpis ullamcorper ut. In non congue ligula.</p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+          sit amet enim vel metus porta consectetur. Interdum et malesuada fames
+          ac ante ipsum primis in faucibus. Phasellus quis tortor vel orci
+          tempor vestibulum. Suspendisse nec bibendum ex. Vestibulum eros sem,
+          cursus nec sapien hendrerit, gravida hendrerit erat. Duis vulputate
+          neque et diam posuere congue. Morbi nec velit ante. Maecenas at mauris
+          nec ligula vehicula rhoncus at a turpis. Aenean vitae enim nec magna
+          lacinia placerat id quis tellus. Integer vel quam lacus. In sagittis
+          interdum orci, id pharetra turpis ullamcorper ut. In non congue
+          ligula.
+        </p>
       </div>
       <div id="tech" style={{ display: tech }}>
         <h4>Tech Abilities</h4>
