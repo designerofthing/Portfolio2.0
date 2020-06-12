@@ -91,18 +91,16 @@ const About = ({ title }) => {
       </div>
       <div id="skills" style={{ display: skills }}>
         <h4>Skills</h4>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-          sit amet enim vel metus porta consectetur. Interdum et malesuada fames
-          ac ante ipsum primis in faucibus. Phasellus quis tortor vel orci
-          tempor vestibulum. Suspendisse nec bibendum ex. Vestibulum eros sem,
-          cursus nec sapien hendrerit, gravida hendrerit erat. Duis vulputate
-          neque et diam posuere congue. Morbi nec velit ante. Maecenas at mauris
-          nec ligula vehicula rhoncus at a turpis. Aenean vitae enim nec magna
-          lacinia placerat id quis tellus. Integer vel quam lacus. In sagittis
-          interdum orci, id pharetra turpis ullamcorper ut. In non congue
-          ligula.
-        </p>
+        <ul>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+          <li>Pellentesque sit amet enim vel metus porta consectetur.</li>
+          <li> Interdum et malesuada fames ante ipsum primis in faucibus.</li>
+          <li> Phasellus quis tortor vel orci tempor vestibulum.</li>
+          <li>Suspendisse nec bibendum ex.</li>
+          <li>Duis vulputate neque et diam posuere congue.</li>
+          <li>Morbi nec velit ante.</li>
+          <li> In non congue ligula.</li>
+        </ul>
       </div>
       <div id="tech" style={{ display: tech }}>
         <h4>Tech Abilities</h4>
