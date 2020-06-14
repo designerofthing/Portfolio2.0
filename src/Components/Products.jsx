@@ -12,18 +12,18 @@ const Products = ({ title }) => {
 
   const images = [
     {
-      original: "https://www.arch2o.com/wp-content/uploads/2012/05/skase.jpg",
+      original: "https://portfolio2images.s3.eu-north-1.amazonaws.com/skase1.jpg",
       originalTitle: "Skase",
       description: "Skase Tea Cup Set 2005",
     },
     {
       original:
-        "https://www.itsliquid.com/wp-content/uploads/design/proponshelf.jpg",
+        "https://portfolio2images.s3.eu-north-1.amazonaws.com/proponshelf.jpg",
       originalTitle: "Prop",
       description: "Prop Table Lamp 2008",
     },
     {
-      original: "http://simbiosisgroup.net/wp-content/uploads/2011/08/0.jpg",
+      original: "https://portfolio2images.s3.eu-north-1.amazonaws.com/Cass1.jpg",
       originalTitle: "Cassiopeia",
       description: "Cassiopeia Table 2007",
     },

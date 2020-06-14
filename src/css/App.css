@@ -121,7 +121,7 @@ html {
 #image-1 {
   height: 75vh;
   background-color: grey;
-  background-image: url("../images/bmi.png");
+  background-image: url("https://portfolio2images.s3.eu-north-1.amazonaws.com/bmi.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -130,7 +130,7 @@ html {
 #image-2 {
   height: 75vh;
   background-color: grey;
-  background-image: url("../images/Take me 1.jpg");
+  background-image: url("https://portfolio2images.s3.eu-north-1.amazonaws.com/Take+me+1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: scale-down;

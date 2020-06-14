@@ -92,14 +92,16 @@ const About = ({ title }) => {
       <div id="skills" style={{ display: skills }}>
         <h4>Skills</h4>
         <ul>
-          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-          <li>Pellentesque sit amet enim vel metus porta consectetur.</li>
-          <li> Interdum et malesuada fames ante ipsum primis in faucibus.</li>
-          <li> Phasellus quis tortor vel orci tempor vestibulum.</li>
-          <li>Suspendisse nec bibendum ex.</li>
-          <li>Duis vulputate neque et diam posuere congue.</li>
-          <li>Morbi nec velit ante.</li>
-          <li> In non congue ligula.</li>
+          <li>Agile working methodology</li>
+          <li>Full Stack Web Development</li>
+          <li>Test Driven Development</li>
+          <li>Behavior Driven Design</li>
+          <li>Pair Programming</li>
+          <li>Continuous Integration and Deployment</li>
+          <li>Management of teams of up to 20 people</li>
+          <li>Project Management</li>
+          <li>Product Design and Development</li>
+          <li>5 Star Communication and Interaction</li>
         </ul>
       </div>
       <div id="tech" style={{ display: tech }}>

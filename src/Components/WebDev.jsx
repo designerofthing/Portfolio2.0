@@ -6,16 +6,16 @@ const WebDev = ({ title }) => {
 
   const images = [
     {
-      original: 'https://picsum.photos/id/1018/1000/600/',
-      
+      original: 'https://portfolio2images.s3.eu-north-1.amazonaws.com/DailyNewsSense.png',
+      description: "News App React Client, Rails API",
     },
     {
-      original: 'https://picsum.photos/id/1015/1000/600/',
-     
+      original: 'https://portfolio2images.s3.eu-north-1.amazonaws.com/rps.png',
+      description: "Rock Paper Scissors React App",
     },
     {
-      original: 'https://picsum.photos/id/1019/1000/600/',
-      
+      original: 'https://portfolio2images.s3.eu-north-1.amazonaws.com/rt.png',
+      description: "Release Tracker App React Client, Rails API",
     },
   ];
   return (
