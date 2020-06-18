@@ -84,8 +84,9 @@ const About = ({ title }) => {
       <div id="about-right">
         <img
           id="about-image"
+          alt="Steve Profile Picture"
           src={
-            "https://media-exp1.licdn.com/dms/image/C4D03AQEGS43wYaFp_A/profile-displayphoto-shrink_400_400/0?e=1597276800&v=beta&t=ctSjVfLk6tWtfmWVFfzpaAJ191SvRPeWEEHVq0aYuDs"
+            "https://portfolio2images.s3.eu-north-1.amazonaws.com/profile.jpg"
           }
         />
       </div>
