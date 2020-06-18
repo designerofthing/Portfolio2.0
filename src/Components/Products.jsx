@@ -1,13 +1,13 @@
-import React, { useState } from "react";
+import React from "react";
 import Header from "./Header";
 import ImageGallery from "react-image-gallery";
 import images from '../modules/productImages.js'
 
 const Products = ({ title }) => {
  
-  const singleProduct = (event) => {
-    window.location.href= event.target.title
-  };
+  // const singleProduct = (event) => {
+  //   window.location.href= event.target.title
+  // };
 
   
 
