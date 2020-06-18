@@ -1,30 +1,26 @@
 import React from "react";
 import Header from "./Header";
-import ImageGallery from 'react-image-gallery';
+import ImageGallery from "react-image-gallery";
+import projects from '../modules/projects'
 
 const WebDev = ({ title }) => {
-
-  const images = [
-    {
-      original: 'https://portfolio2images.s3.eu-north-1.amazonaws.com/DailyNewsSense.png',
-      description: "News App React Client, Rails API",
-    },
-    {
-      original: 'https://portfolio2images.s3.eu-north-1.amazonaws.com/rps.png',
-      description: "Rock Paper Scissors React App",
-    },
-    {
-      original: 'https://portfolio2images.s3.eu-north-1.amazonaws.com/rt.png',
-      description: "Release Tracker App React Client, Rails API",
-    },
-  ];
+  const singleProject = (event) => {
+    window.location.href = event.target.title;
+  };
+  
   return (
     <>
       <div id="wd-header">
         <Header title={title} />
       </div>
       <div id="webdev-page">
-      <ImageGallery items={images} showThumbnails={false} />
+        <ImageGallery
+          items={projects}
+          showThumbnails={false}
+          showPlayButton={false}
+          showFullscreenButton={false}
+          onClick={singleProject}
+        />
       </div>
     </>
   );
