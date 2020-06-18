@@ -173,12 +173,13 @@ a:active {
 }
 
 #about-right {
-  width: 45%;
+  width: 40%;
   float: right;
 }
 
 #about-image {
-  height: 50%;
+  height: 30%;
+  width: 30vw;
   padding-top: 10%;
   padding-right: 10vw;
   border-radius: 50%;

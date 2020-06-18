@@ -84,7 +84,7 @@ const About = ({ title }) => {
       <div id="about-right">
         <img
           id="about-image"
-          alt="Steve Profile Picture"
+          alt="Steve Profile"
           src={
             "https://portfolio2images.s3.eu-north-1.amazonaws.com/profile.jpg"
           }
