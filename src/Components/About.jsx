@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./Header";
 import { useState } from "react";
 import Rating from "react-rating";
+import programs from '../modules/techSkills'
 
 const About = ({ title }) => {
   const [steve, setSteve] = useState("block");
@@ -24,17 +25,7 @@ const About = ({ title }) => {
     setSteve("none");
   };
 
-  const programs = [
-    { name: "HTML & CSS", rating: 3.5 },
-    { name: "Javascript & ReactJS", rating: 3 },
-    { name: "React Native", rating: 2.5 },
-    { name: "Cypress", rating: 4 },
-    { name: "Ruby/Rails & RSpec", rating: 3.5 },
-    { name: "NodeJS", rating: 2 },
-    { name: "Git", rating: 4 },
-    { name: "Photoshop & Illustrator", rating: 3 },
-    { name: "AutoCAD, Rhino, 3DStudio", rating: 3.5 },
-  ];
+  
   const techList = programs.map((program) => {
     return (
       <div className="row">
