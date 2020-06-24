@@ -7,7 +7,7 @@
 ## About this project
 This project was a solo project by https://github.com/designerofthing.
 
-It is a portfolio application to showcase my work as well as ReactJS skills.
+It is a portfolio application to showcase my work as well as ReactJS and vanilla CSS skills.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
