@@ -16,8 +16,9 @@ const projects = [
     originalTitle: "https://steverpsgame.netlify.app/",
   },
   {
-    original: "https://portfolio2images.s3.eu-north-1.amazonaws.com/rt.png",
-    description: "Release Tracker App in ReactJS Client, Ruby on Rails API",
+    original: "https://portfolio2images.s3.eu-north-1.amazonaws.com/request.png",
+    description: "reQuest - A Service Bartering App in ReactJS Client, Ruby on Rails API",
+    originalTitle: "https://requestnow.netlify.app/",
   },
   {
     original: "https://portfolio2images.s3.eu-north-1.amazonaws.com/toaasapi.png",
