@@ -122,10 +122,10 @@ html {
 
 #image-1 {
   height: 75vh;
-  background-color: grey;
-  background-image: url("https://portfolio2images.s3.eu-north-1.amazonaws.com/bmi.png");
+  background-color: white;
+  background-image: url("https://portfolio2images.s3.eu-north-1.amazonaws.com/gagnatplatform.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
 }
 
